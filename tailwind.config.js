@@ -4,7 +4,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extends: ["next/babel","next/core-web-vitals"],
   },
   plugins: [],
 };
